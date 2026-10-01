@@ -1,0 +1,96 @@
+# Dependencies
+node_modules/
+jspm_packages/
+web_modules/
+vendor/
+.pnp
+.pnp.js
+
+# Build output
+dist/
+build/
+out/
+.output/
+.next/
+.nuxt/
+.cache/
+.parcel-cache/
+.turbo/
+.temp/
+tmp/
+*.tsbuildinfo
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.cer
+*.p12
+*.pfx
+secrets.json
+credentials.json
+service-account*.json
+.netrc
+.npmrc
+.yarnrc
+.pgpass
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Test and coverage output
+coverage/
+.nyc_output/
+test-results/
+playwright-report/
+blob-report/
+
+# Caches and tool state
+.eslintcache
+.stylelintcache
+.prettiercache
+.swc/
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+.history/
+
+# Operating system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Temporary and backup files
+*.bak
+*.tmp
+*.swp
+*.orig
+*.rej
+*~
