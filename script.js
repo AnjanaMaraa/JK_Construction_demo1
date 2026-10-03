@@ -1,18 +1,18 @@
 const WHATSAPP_BASE_URL = "https://wa.me/";
 
 const whatsappMessages = {
-  general: "Hi JK Construction, I would like to discuss a construction project.",
-  quote: "Hi JK Construction, I would like to request a quote for my construction project.",
-  project: "Hi JK Construction, I would like to discuss my construction project."
+  general: "Hi DigiMaraa Construction, I would like to discuss a construction project.",
+  quote: "Hi DigiMaraa Construction, I would like to request a quote for my construction project.",
+  project: "Hi DigiMaraa Construction, I would like to discuss my construction project."
 };
 
 const serviceMessages = {
-  "Home Construction": "Hi JK Construction, I am interested in home construction. I would like to discuss my requirements.",
-  "Architectural Planning": "Hi JK Construction, I am interested in architectural planning. I would like to discuss my project requirements.",
-  "Interior Works": "Hi JK Construction, I am interested in your interior works. Please share more details.",
-  "Renovation & Remodeling": "Hi JK Construction, I am interested in renovation/remodeling services. I would like to discuss my project.",
-  "Customized Construction": "Hi JK Construction, I am interested in customized construction. I would like to discuss my specific requirements.",
-  "Project Execution": "Hi JK Construction, I am interested in project execution services. I would like to discuss my project."
+  "Home Construction": "Hi DigiMaraa Construction, I am interested in home construction. I would like to discuss my requirements.",
+  "Architectural Planning": "Hi DigiMaraa Construction, I am interested in architectural planning. I would like to discuss my project requirements.",
+  "Interior Works": "Hi DigiMaraa Construction, I am interested in your interior works. Please share more details.",
+  "Renovation & Remodeling": "Hi DigiMaraa Construction, I am interested in renovation/remodeling services. I would like to discuss my project.",
+  "Customized Construction": "Hi DigiMaraa Construction, I am interested in customized construction. I would like to discuss my specific requirements.",
+  "Project Execution": "Hi DigiMaraa Construction, I am interested in project execution services. I would like to discuss my project."
 };
 
 function openWhatsApp(message) {
@@ -71,7 +71,7 @@ document.querySelectorAll("[data-whatsapp-intent]").forEach((button) => {
 document.querySelectorAll("[data-whatsapp-service]").forEach((button) => {
   button.addEventListener("click", () => {
     const service = button.dataset.whatsappService;
-    openWhatsApp(serviceMessages[service] || `Hi JK Construction, I would like to know more about ${service}.`);
+    openWhatsApp(serviceMessages[service] || `Hi DigiMaraa Construction, I would like to know more about ${service}.`);
   });
 });
 
